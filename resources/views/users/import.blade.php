@@ -8,7 +8,7 @@
 <body>
     <div>
         <h1>Import your excel sheet here!</h1>
-        <form action="/user/import" method="POST" enctype="multipart/form-data">
+        <form action="/" method="POST" enctype="multipart/form-data">
             @csrf
             <div>
                 <input type="file" name="file">
